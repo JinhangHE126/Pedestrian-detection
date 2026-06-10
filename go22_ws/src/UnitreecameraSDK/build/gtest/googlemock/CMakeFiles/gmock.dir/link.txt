@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -pthread  -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o   -L/home/yc/go22_ws/src/UnitreecameraSDK/lib/amd64  -Wl,-rpath,/home/yc/go22_ws/src/UnitreecameraSDK/lib/amd64:/home/yc/go22_ws/src/UnitreecameraSDK/build/gtest/lib ../lib/libgtest.so -lpthread 

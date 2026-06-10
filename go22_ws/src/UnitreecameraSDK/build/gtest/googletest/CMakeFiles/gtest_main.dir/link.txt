@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -pthread  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o   -L/home/yc/go22_ws/src/UnitreecameraSDK/lib/amd64  -Wl,-rpath,/home/yc/go22_ws/src/UnitreecameraSDK/lib/amd64:/home/yc/go22_ws/src/UnitreecameraSDK/build/gtest/lib ../lib/libgtest.so -lpthread 
